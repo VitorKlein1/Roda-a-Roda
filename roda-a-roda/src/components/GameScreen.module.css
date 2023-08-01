@@ -1,0 +1,33 @@
+.Game_h2 {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    text-shadow: var(--textShadow);
+    font-size: 2em;
+    
+}
+
+.Game_p {
+    margin: 20px;
+    
+    
+    font-size: 1.2em;
+    font-weight: normal;
+
+    text-shadow: var(--textShadow)
+}
+
+.Guess {
+    display: flex;
+    gap: 30px;
+}
+
+.Guess input {
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+    font-size: 3em;
+
+    border: 3px solid black;
+}
+

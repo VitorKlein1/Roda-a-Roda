@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Golden Pepper';
+  src: url('fonts/GoldenPepper.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  --backgroundOne: #4c54a9;
+  --backgroundTwo: #3f458e;
+  --yellow: #ffd23f;
+
+  --textShadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Golden Pepper';
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-image: linear-gradient(to bottom, var(--backgroundOne), var(--backgroundTwo));
+  background-repeat: no-repeat;
+  color: white;
+}
